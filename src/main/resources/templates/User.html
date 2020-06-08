@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>User panel</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+          integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <style>
+        html, body {
+            height: 100%;
+        }
+    </style>
+    <script src="http://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+            integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+            crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+            integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+            crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</head>
+<body>
+<div id="userBlack">
+</div>
+<div class="container-fluid">
+    <div class="row vh-100">
+        <div class="col-2 nav flex-column nav-pills" style="padding: 0" id="adminUser-tab" role="tablist" aria-orientation="vertical">
+            <a class="nav-link active mt-3" data-toggle="pill" href="#user" role="tab"
+               aria-controls="user" aria-selected="true">User</a>
+        </div>
+        <div class="col-10 bg-light px-4">
+            <div class="tab-pane active" id="user" role="tabpanel" aria-labelledby="user">
+                <h1>User information-page</h1>
+                <div id="userPageTable"></div>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
